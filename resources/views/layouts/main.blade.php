@@ -10,6 +10,14 @@
 
     <title>e-SKP FTK | {{ $tittle }}</title>
   </head>
+  <style>
+    @media (min-width: 992px) {
+    .navbar-nav{
+    position: absolute;
+    left: 75%;
+    }
+  }
+  </style>
   <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
