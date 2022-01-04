@@ -14,18 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $mahasiswa = [
-        [
-        "nama" => "I Made Deva Kerti Wijaya",
-        "nim" => "2015051012",
-        "prodi" => "Prodi Mahasiswa",
-        "jurusan" => "Jurusan Mahasiswa",
-        "poinSkp" => "Perolehan Poin"
-        ]
-    ];
     return view('home',[
-        "tittle" => "Home",
-        "home" => $mahasiswa
+        "tittle" => "Home"
     ]);
 });
 
