@@ -10,10 +10,10 @@
           <a class="nav-link active" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/akun">Akun</a>
+          <a class="nav-link" href="/about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/skp">Tambah SKP</a>
+          <a class="nav-link" href="/projects">My Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/portofolio">Portofolio</a>

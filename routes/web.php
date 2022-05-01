@@ -19,15 +19,15 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/akun', function () {
-    return view('akun',[
-        "tittle" => "Akun Mahasiswa"
+Route::get('/about', function () {
+    return view('about',[
+        "tittle" => "About Me"
     ]);
 });
 
-Route::get('/skp', function () {
-    return view('skp', [
-        "tittle" => "Tambah SKP"
+Route::get('/projects', function () {
+    return view('projects', [
+        "tittle" => "My Projects"
     ]);
 });
 

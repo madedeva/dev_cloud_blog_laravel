@@ -2,6 +2,6 @@
 
 @section('container')
 
-<h1>Tambah SKP</h1>
+<h1>About Me</h1>
 
 @endsection

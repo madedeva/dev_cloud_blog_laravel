@@ -2,6 +2,6 @@
 
 @section('container')
 
-<h1>Akun Mahasiswa</h1>
+<h1>My Projects</h1>
 
 @endsection
