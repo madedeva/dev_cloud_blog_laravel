@@ -2,6 +2,10 @@
 
 @section('container')
 
-<h1>About Me</h1>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container text-center pt-5">
+        <h1 class="display-4">About Me</h1>
+    </div>
+</div>
 
 @endsection

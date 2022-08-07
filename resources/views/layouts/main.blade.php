@@ -32,13 +32,13 @@
           <a class="nav-link {{ ($tittle === "Home") ? 'active' : ''}}" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Akun Mahasiswa") ? 'active' : ''}}" href="/about">About Me</a>
+          <a class="nav-link {{ ($tittle === "About Me") ? 'active' : ''}}" href="/about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Tambah SKP") ? 'active' : ''}}" href="/projects">Projects</a>
+          <a class="nav-link {{ ($tittle === "My Projects") ? 'active' : ''}}" href="/projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Portofolio") ? 'active' : ''}}" href="/portofolio">Portofolio</a>
+          <a class="nav-link {{ ($tittle === "Portofolio") ? 'active' : ''}}" href="/portofolio">Portfolio</a>
         </li>
       </ul>
     </div>
