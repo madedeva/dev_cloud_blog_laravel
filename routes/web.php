@@ -21,18 +21,18 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about',[
-        "tittle" => "About Me"
+        "tittle" => "About"
     ]);
 });
 
-Route::get('/projects', function () {
-    return view('projects', [
-        "tittle" => "My Projects"
+Route::get('/blog', function () {
+    return view('blog', [
+        "tittle" => "Blog"
     ]);
 });
 
-Route::get('/portofolio', function () {
-    return view('portofolio',[
-        "tittle" => "Portofolio"
+Route::get('/contact', function () {
+    return view('contact',[
+        "tittle" => "Contact"
     ]);
 });

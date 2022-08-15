@@ -20,7 +20,7 @@
   </style>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
   <div class="container">
     <a class="navbar-brand" href="/">Deva Kerti Wijaya</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,13 @@
           <a class="nav-link {{ ($tittle === "Home") ? 'active' : ''}}" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "About Me") ? 'active' : ''}}" href="/about">About Me</a>
+          <a class="nav-link {{ ($tittle === "About") ? 'active' : ''}}" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "My Projects") ? 'active' : ''}}" href="/projects">Projects</a>
+          <a class="nav-link {{ ($tittle === "Blog") ? 'active' : ''}}" href="/blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Portofolio") ? 'active' : ''}}" href="/portofolio">Portfolio</a>
+          <a class="nav-link {{ ($tittle === "Contact") ? 'active' : ''}}" href="/contact">Contact</a>
         </li>
       </ul>
     </div>
