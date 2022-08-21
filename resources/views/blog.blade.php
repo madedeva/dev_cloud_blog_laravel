@@ -2,10 +2,14 @@
 
 @section('container')
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container text-center pt-5">
-        <h1 class="display-4">Blog</h1>
-    </div>
-</div>
+@foreach ( $posts as $post )
+<article class="mb-5">
+    <h2>
+        <a href="/blog/{{ $post["slug"] }}">{{$post ["title"]}}</a>
+    </h2>
+    <h5>By: {{$post ["author"]}}</h5>
+    <p>{{$post ["body"]}}</p>
+</article>
+@endforeach
 
 @endsection
