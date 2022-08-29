@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
 @section('container')
+
+<div class="container">
 <article>
     <h2>{{ $post["title"] }}</h2>
     <h5>By: {{ $post["author"] }}</h5>
@@ -8,5 +10,6 @@
 </article>
  
 <a href="/posts">Back to posts</a>
+</div>
 
 @endsection

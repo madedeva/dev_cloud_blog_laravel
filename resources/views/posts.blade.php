@@ -3,6 +3,8 @@
 @section('container')
 
 @foreach ( $posts as $post )
+
+<div class="container">
 <article class="mb-5">
     <h2>
         <a href="/posts/{{ $post["slug"] }}">{{$post ["title"]}}</a>
@@ -10,6 +12,7 @@
     <h5>By: {{$post ["author"]}}</h5>
     <p>{{$post ["body"]}}</p>
 </article>
+</div>
 @endforeach
 
 @endsection
