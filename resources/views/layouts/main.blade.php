@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/f9f8f8b8f9.js" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/css.css">
 
     <title>DCB | {{ $tittle ?? '' }}</title>
   </head>
@@ -26,6 +26,20 @@
     <div class="container mt-4">
         @yield('container')
     </div>
+
+    <!-- breakpoints footer-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr>
+    </div>
+    @include('partials.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 

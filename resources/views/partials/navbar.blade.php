@@ -5,18 +5,18 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Home") ? 'active' : ''}}" href="/">Home</a>
+          <a class="nav-link {{ ($tittle === "Home") ? 'active' : ''}}" href="/" id="menu">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "About") ? 'active' : ''}}" href="/about">About</a>
+          <a class="nav-link {{ ($tittle === "About") ? 'active' : ''}}" href="/about" id="menu">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "All Posts") ? 'active' : ''}}" href="/posts">Blog</a>
+          <a class="nav-link {{ ($tittle === "All Posts") ? 'active' : ''}}" href="/posts" id="menu">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($tittle === "Post Categories") ? 'active' : ''}}" href="/categories">Categories</a>
+          <a class="nav-link {{ ($tittle === "Post Categories") ? 'active' : ''}}" href="/categories" id="menu">Categories</a>
         </li>
       </ul>
     </div>

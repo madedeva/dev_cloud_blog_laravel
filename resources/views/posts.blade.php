@@ -2,7 +2,7 @@
 
 @section('container')
 
-<div class="container pt-5">
+<div class="container pt-4">
 <h1 class="mb-5">{{ $tittle }}</h1> 
 
 @if($posts->count())
@@ -31,7 +31,7 @@
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row pb-5">
         @foreach($posts->skip(1) as $post)
         <div class="col-md-4 mb-3">
             <div class="card">

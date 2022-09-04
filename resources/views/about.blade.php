@@ -3,8 +3,8 @@
 @section('container')
 
 <div class="jumbotron jumbotron-fluid">
-    <div class="container text-center pt-5">
-        <img src="img/{{ $image }}" class="rounded-circle alt="{{ $name }}" width="200">
+    <div class="container text-center pt-4">
+        <img src="img/{{ $image }}" class="rounded-circle mb-4" alt="{{ $name }}" width="200">
         <h1>{{ $name }}</h1>
         <small>
             <p class="text-muted">Admin/Developer : {{ $email }}</p>

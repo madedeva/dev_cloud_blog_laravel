@@ -9,6 +9,7 @@ class PostController extends Controller
 {
     public function index(){
         return view('posts', [
+            // "tittle" => "Blog",
             "tittle" => "All Posts",
             "active" => "posts",
             // "posts" => Post::all()

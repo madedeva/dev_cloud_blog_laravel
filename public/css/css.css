@@ -1,0 +1,42 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    color: #333649;
+}
+
+.home-title{
+    font-weight: 500;
+}
+
+.btn{
+    border-radius: 25px;
+    color: #10CAF0;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    box-shadow: 0 5px 15px #10CAF0;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #10CAF0;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #10CAF0(50%);
+    transition: all 0.3s ease-in-out;
+}
