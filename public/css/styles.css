@@ -3,40 +3,29 @@
 }
 body{
     background-color: #f5f5f5;
-}
-.navbar{
-    background-color: #F5F8FD;
-}
-.nav-link {
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-a:not([class]) {
-    text-decoration: none;
-}
-
-a:not([class]):hover {
-    text-decoration: underline;
+    color: #333649;
 }
 
 .home-title{
     font-weight: 500;
 }
 
-.btn{
-    border-radius: 25px;
-    border: 1px solid #10CAF0;
-    color: #10CAF0;
-    font-weight: 500;
-    padding: 10px 20px;
-    transition: all 0.3s ease-in-out;
-}
-
 .navbar-nav{
     margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #10CAF0;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #10CAF0(50%);
+    transition: all 0.3s ease-in-out;
 }

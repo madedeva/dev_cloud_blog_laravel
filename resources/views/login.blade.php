@@ -15,21 +15,18 @@
 <div class="wrapper fadeInDown">
   <div id="formContent">
 
-    <!-- Titles -->
     <div class="fadeIn first">
       <h1>Login Admin</h1>
     </div>
 
-    <!-- Login Form -->
     <form>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
       <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
       <input type="submit" class="fadeIn fourth bg-info" value="Log In">
     </form>
 
-    <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover text-info" href="#">Forgot Password?</a>
+      <a class="text-info" href="#">Forgot Password?</a>
     </div>
 
   </div>

@@ -4,20 +4,7 @@
                 <div class="col-md-4">
                     <h3>Contact</h3>
                     <small><p>Et quos quas quas suscipit qui. Culpa dolores dolor et aut nihil. Rerum enim officiis dolore repellendus</p></small>
-                    <p>Copyright 2022 Dev Cloud Blog</p>
-                    <!-- form -->
-                    <!-- <form action="">
-                        <div class="form-group pt-4">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group pt-4">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group pt-4">
-                            <textarea class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <a href="#" class="btn btn-info text-white mt-4">Send message</a>
-                    </form> -->
+                    <p>2022 &copy; Dev Cloud Blog</p>
                 </div>
                 <div class="col-md-4">
                     <h3>Shortcut</h3>

@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/f9f8f8b8f9.js" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/css.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
     <title>DCB | {{ $tittle ?? '' }}</title>
   </head>

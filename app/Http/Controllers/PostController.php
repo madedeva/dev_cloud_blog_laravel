@@ -7,17 +7,19 @@ use App\Models\Post;
 
 class PostController extends Controller
 {
-    public function index(){
+    public function index()
+    {
+
         return view('posts', [
             // "tittle" => "Blog",
             "tittle" => "All Posts",
             "active" => "posts",
-            // "posts" => Post::all()
-            "posts" => Post::latest()->get()
+            "posts" => Post::latest()->filter(request(['search']))->get()
         ]);
     }
 
-    public function show(Post $post){
+    public function show(Post $post)
+    {
         return view('post', [
             "tittle" => "Single Post",
             "active" => "posts",
