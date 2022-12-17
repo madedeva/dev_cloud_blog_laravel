@@ -15,19 +15,18 @@
 <div class="wrapper fadeInDown">
   <div id="formContent">
 
-    <div class="fadeIn first">
-      <h1>Login Admin</h1>
+    <div class="fadeIn first mt-4">
+      <h1>Register Account</h1>
     </div>
 
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
+    <form class="mt-4" action="" method="POST">
+        @csrf
+        <input type="text" id="name" class="fadeIn second" name="name" placeholder="example: Taylor Otwell">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="example: taylorotwell">
+        <input type="text" id="email" class="fadeIn second" name="email" placeholder="name@example.com">
       <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth bg-info" value="Log In">
+      <input type="submit" class="fadeIn fourth bg-info mt-3" value="Register">
     </form>
-
-    <div id="formFooter">
-      <a class="text-info" href="#">Forgot Password?</a>
-    </div>
 
   </div>
 </div>

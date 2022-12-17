@@ -16,7 +16,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3>Social</h3>
+                    <h3>Follow Me</h3>
                     <ul class="list-unstyled">
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Twitter</a></li>

@@ -19,6 +19,11 @@
           <a class="nav-link {{ ($tittle === "Post Categories") ? 'active' : ''}}" href="/categories" id="menu">Categories</a>
         </li>
       </ul>
+      <!-- <ul class="navbar-nav">
+        <li class="nav-link">
+          <a class="nav-link" href="/login" id="menu">Login</a>
+        </li>
+      </ul> -->
     </div>
   </div>
 </nav>

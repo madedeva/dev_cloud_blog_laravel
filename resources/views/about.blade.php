@@ -4,13 +4,10 @@
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container text-center pt-4">
-        <img src="img/{{ $image }}" class="rounded-circle mb-4" alt="{{ $name }}" width="200">
-        <h1>{{ $name }}</h1>
+        <img src="img/camp.png" class="rounded-circle mb-4" alt="" width="200">
+        <h1>Deva Kerti Wijaya</h1>
         <small>
-            <p class="text-muted">Admin/Developer : {{ $email }}</p>
-        </small>
-        <small>
-            <a href="https://undiksha.ac.id/" class="text-decoration-none text-dark"><h6>{{ $campus }}</h6></a>
+            <p class="text-muted">Universitas Pendidikan Ganesha</p>
         </small>
     </div>
 </div>
@@ -19,10 +16,10 @@
     <div class="row mt-5">
         <div class="row justify-content-center">
             <div class="col-md-5 text-justify">
-                <p>{{ $deskripsi1 }}</p>
+                <p>Hello, I am I Made Deva Kerti Wijaya, I am a Web and Mobile Developer, and a Graphic Designer. I have worked on several projects in the form of mobile applications and designs. I became a Graphic Designer at a Korean restaurant, Hansik by Ferbean.</p>
             </div>
             <div class="col-md-5 text-justify">
-                <p>{{ $deskripsi2 }}</p>
+                <p>My educational background is the Department of Software Engineering at SMK Negeri 1 Negara, as well as in college as a student of Informatics Engineering Education, Ganesha Education University. I also joined a student organization, namely HMJ Informatics Engineering.</p>
             </div>
         </div>
     </div>
